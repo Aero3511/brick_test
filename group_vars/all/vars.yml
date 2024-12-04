@@ -1,0 +1,2 @@
+brick_user_password: "{{ vault_brick_user_password }}"
+brick_user_public_ssh_key: "{{ vault_brick_user_public_ssh_key }}"

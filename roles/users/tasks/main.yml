@@ -1,0 +1,6 @@
+- name: Manage user brick
+  ansible.builtin.include_tasks: 
+    file: brick.yml
+    apply:
+      tags: 
+        - brick_user

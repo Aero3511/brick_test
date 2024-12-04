@@ -1,0 +1,6 @@
+- name: Add user brick
+  ansible.builtin.user:
+    name: brick
+    shell: "/bin/bash"
+    create_home: true
+    password: "{{ brick_user_password | password_hash('sha512') }}"
